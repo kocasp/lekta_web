@@ -1,0 +1,31 @@
+
+<svg width="532px" height="803px" viewBox="0 0 532 803" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.1 (51147) - http://www.bohemiancoding.com/sketch -->
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 533 0 533 805 0 805"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="LP">
+            <g id="Section-1" transform="translate(-1.000000, -2.000000)">
+                <g id="Heder---image">
+                    <g id="Group-7">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                        <g mask="url(#mask-2)">
+                            <g transform="translate(-592.000000, -41.000000)">
+                                <polygon id="Fill-1" fill="#BF33B3" points="794.444 311.211 170.87 934.786 981.168 934.786 1190.55 725.404 1190.55 311.211"></polygon>
+                                <polygon id="Fill-2" fill="#942EDE" points="0 311.211 0 934.786 170.87 934.786 794.444 311.211"></polygon>
+                                <polygon id="Fill-3" fill="#942EDE" points="981.202 934.7859 1190.55 934.7859 1190.55 725.437"></polygon>
+                                <polygon id="Fill-4" fill="#942EDE" points="1064.96461 43 794.444 311.211 1242.75461 311.211 1242.75461 43"></polygon>
+                                <polygon id="Fill-5" fill="#7329FF" points="225.395184 0.906403814 0.0003 295.344 0.0003 311.211 794.444 311.211 1107.06776 0.906403814"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
