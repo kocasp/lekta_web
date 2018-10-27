@@ -1,6 +1,22 @@
 /* ==========================================================================
    Lekta custom styles
    ========================================================================== */
+@font-face {
+   font-family: 'Sailec';
+   src: url('../fonts/Sailec-Regular.woff2') format('woff2'),
+       url('../fonts/Sailec-Regular.woff') format('woff');
+   font-weight: normal;
+   font-style: normal;
+}
+
+@font-face {
+   font-family: 'Sailec';
+   src: url('../fonts/Sailec-Bold.woff2') format('woff2'),
+       url('../fonts/Sailec-Bold.woff') format('woff');
+   font-weight: bold;
+   font-style: normal;
+}
+
 body {
   overflow-x: hidden;
 }
