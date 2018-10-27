@@ -1,10 +1,9 @@
 /* ==========================================================================
    Lekta custom styles
    ========================================================================== */
-html {
+body {
   overflow-x: hidden;
 }
-
 .lekta-border {
   border: 5px solid #000000;
 }
@@ -41,7 +40,7 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.5px;
   line-height: 86px;
-  width: 564px;
+  max-width: 564px;
   text-align: left;
 }
 
@@ -70,7 +69,7 @@ p {
 .white_stripes_right {
   position: absolute;
   top: -90px;
-  right: 112px;
+  right: 14px;
 }
 
 .purple_background {
@@ -116,7 +115,7 @@ p {
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 94px;
-  width: 772px;
+  max-width: 772px;
   text-align: left;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -130,7 +129,7 @@ p {
   letter-spacing: 1px;
   line-height: 20px;
   text-align: left;
-  width: 385px;
+  max-width: 385px;
 }
 
 .header_section .lekta_logo {
@@ -150,11 +149,17 @@ p {
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 43px;
-  width: 145px;
-  text-align: left;
   word-break: break-all;
   hyphens: auto;
   margin-top: 0px;
+}
+@media only screen and (min-width: 992px) {
+    .differen_section h3 {
+      width: 145px;
+    }
+    .differen_section h3{
+      text-align: left;
+    }
 }
 
 .differen_section .bullet {
@@ -168,8 +173,12 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 18px;
-  width: 200px;
   text-align: left;
+}
+@media only screen and (min-width: 992px) {
+    .differen_section p {
+      width: 200px;
+    }
 }
 
 /* What we offer section */
@@ -209,7 +218,6 @@ p {
   font-weight: 700;
   letter-spacing: 2.1px;
   line-height: 43px;
-  text-align: right;
   text-transform: uppercase;
 }
 
@@ -220,12 +228,15 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 18px;
-  width: 200px;
   text-align: left;
 }
-
-.offer_section h3, .offer_section p {
-  width: 200px;
+@media only screen and (min-width: 992px) {
+  .offer_section h3, .offer_section p {
+    width: 200px;
+  }
+  .offer_section h3{
+    text-align: right;
+  }
 }
 
 /* Technology section */
@@ -245,7 +256,6 @@ p {
   font-weight: 700;
   letter-spacing: 2.1px;
   line-height: 43px;
-  text-align: left;
   text-transform: uppercase;
 }
 
@@ -256,7 +266,6 @@ p {
   font-weight: 700;
   letter-spacing: 1px;
   line-height: 173px;
-  text-align: left;
   line-height: 85px;
   margin-left: 10px;
 }
@@ -272,14 +281,18 @@ p {
   font-weight: 400;
   letter-spacing: 1px;
   line-height: 18px;
-  width: 200px;
   text-align: left;
 }
 
-.technology_section h3, .technology_section p {
-  width: 200px;
-}
 
+@media only screen and (min-width: 992px) {
+  .technology_section h3, .technology_section p {
+    width: 200px;
+  }
+  .technology_section h3{
+    text-align: left;
+  }
+}
 /* FAQ SECTION */
 .faq_section {
   padding-top: 20px;
